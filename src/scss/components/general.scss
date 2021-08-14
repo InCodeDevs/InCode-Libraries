@@ -1,0 +1,16 @@
+/**
+ * @author Ben Siebert
+ * @copyright 2018-2021 Ben Siebert. All rights reserved.
+ */
+
+@use "../utils/theme";
+
+* {
+  font-family: sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: theme.$light;
+}

@@ -2,6 +2,3 @@
  * @author Ben Siebert
  * @copyright 2018-2021 Ben Siebert. All rights reserved.
  */
-
-$light: #ffffff;
-$dark: #3d3d3d;

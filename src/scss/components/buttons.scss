@@ -4,3 +4,22 @@
  */
 
 @use "../utils/theme";
+
+button {
+  background-color: theme.$light;
+  color: theme.$dark;
+  border: 1px solid theme.$dark;
+  border-radius: 6px;
+  padding: .5rem 1.75rem;
+  cursor: pointer;
+  transition: .2s;
+}
+
+button:hover {
+  background-color: theme.$dark;
+  color: theme.$light;
+}
+
+button:focus, button:active {
+  box-shadow: 0 0 2px 8px rgba(0, 0, 255, .2);
+}

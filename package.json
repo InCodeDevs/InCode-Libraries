@@ -5,7 +5,7 @@
   "main": "",
   "scripts": {
     "buildStyles": "sass src/scss/incode.scss:dist/incode.min.css --style compressed",
-    "buildScripts": ""
+    "buildScripts": "uglifyjs ./src/js/incode.js -o dist/incode.min.js"
   },
   "repository": {
     "type": "git",
