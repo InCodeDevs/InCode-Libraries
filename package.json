@@ -1,0 +1,19 @@
+{
+  "name": "incode-libraries",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InCodeDevs/InCode-Libraries.git"
+  },
+  "author": "The InCode Developers <https://github.com/InCodeDevs>",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/InCodeDevs/InCode-Libraries/issues"
+  },
+  "homepage": "https://github.com/InCodeDevs/InCode-Libraries#readme"
+}
