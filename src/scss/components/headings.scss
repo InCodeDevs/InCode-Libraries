@@ -1,0 +1,10 @@
+/**
+ * @author Ben Siebert
+ * @copyright 2018-2021 Ben Siebert. All rights reserved.
+ */
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: 42px;
+  }
+}

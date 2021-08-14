@@ -1,0 +1,14 @@
+/**
+ * @author Ben Siebert
+ * @copyright 2018-2021 Ben Siebert. All rights reserved.
+ */
+
+@use "../utils/theme";
+
+table, th, td {
+  border: 1px solid theme.$dark;
+}
+
+table {
+  border-radius: 6px;
+}
